@@ -3,43 +3,52 @@ body {
   /*text-align:center*/
 
 }
+
 #divcss1 {
+  margin: 0 auto;
   padding: 1em 1em;
-  border:1px solid #DDDDDD;
-  width:350px;
-  height:auto;
+  border: 1px solid #dddddd;
+  width: 350px;
+  height: auto;
 }
+
 #divcss2 {
-  border:1px solid #DDDDDD;
-  width:300px;
-  height:auto;
+  margin: 0 auto;
+  border: 1px solid #dddddd;
+  width: 300px;
+  height: auto;
 }
-.margin {
-  margin:0 auto;
-}
+
 .leftPadding {
-  padding: 0px 1em 0 1em;
+  padding: 0 1em 0 1em;
 
 }
+
 .bottomPadding {
-  padding: 0px 0em 1em 0em;
+  padding: 0 0 1em 0;
 }
+
 .topPadding {
   padding: 1em;
 }
+
 .cardImage {
   width: 300px;
-  padding: 0 0 1em 0em;
+  padding: 0 1em 1em 1em;
 }
+
 .bold {
-  font-weight:bolder;
+  font-weight: bolder;
 }
+
 .list {
   list-style: none;
 }
-.italic {
+
+.textItalic {
   font-style: oblique;
 }
+
 span {
   margin: 0 0 0 -40px;
 }
